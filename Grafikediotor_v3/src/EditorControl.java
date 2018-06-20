@@ -1,8 +1,8 @@
 
+import Figures.*;
+
 import java.awt.Graphics;
 import java.awt.Point;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
 
 final class EditorControl {
   private Zeichnung zeichnung = new Zeichnung();
@@ -44,7 +44,7 @@ final class EditorControl {
      int breite = zweiterPunkt.x - ersterPunkt.x;
     int hohe = zweiterPunkt.y - ersterPunkt.y;
 
-    //zeichnung.hinzufuegen(new Rectangle(p, new Size(breite, hohe)));
+    //zeichnung.hinzufuegen(new Figures.Rectangle(p, new Figures.Size(breite, hohe)));
     switch (figurTyp)
     {
         case Circle:
