@@ -1,5 +1,9 @@
 //package lektion2;
 
+import Figures.Figure;
+import Figures.Line;
+import Figures.Position;
+
 import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
@@ -10,14 +14,14 @@ import javax.swing.*;
 
 /**
  * Die Klasse Display stellt ein Fenster auf dem Bildschirm zur Verf?gung, in welchem
- * Figure-Objekte dargestellt werden k?nnen.
+ * Figures.Figure-Objekte dargestellt werden k?nnen.
  * Siehe auch Java-Grundkurs Abschnitt 10.2 und 10.3.
  * 
  * @author Andres Scheidegger
  */
 @SuppressWarnings("serial")
 public class Display extends JFrame {
-  /** Die Liste der dargestellten Figure-Objekte */
+  /** Die Liste der dargestellten Figures.Figure-Objekte */
   private List<Figure> figures = new ArrayList<>();
 
   /**
@@ -111,8 +115,8 @@ public class Display extends JFrame {
   }
 
   /**
-   * F?gt eine weitere Figure hinzu und l?st die Auffrischung des Fensterinhaltes aus.
-   * @param figure Referenz auf das weitere Figure-Objekt.
+   * F?gt eine weitere Figures.Figure hinzu und l?st die Auffrischung des Fensterinhaltes aus.
+   * @param figure Referenz auf das weitere Figures.Figure-Objekt.
    */
   public void hinzufuegen(Figure figure) {
     figures.add(figure);

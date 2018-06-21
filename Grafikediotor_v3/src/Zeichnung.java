@@ -1,3 +1,5 @@
+import Figures.Figure;
+
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -15,8 +17,8 @@ public class Zeichnung {
     }
 
     /**
-     * F?gt eine weitere Figure hinzu und l?st die Auffrischung des Fensterinhaltes aus.
-     * @param figure Referenz auf das weitere Figure-Objekt.
+     * F?gt eine weitere Figures.Figure hinzu und l?st die Auffrischung des Fensterinhaltes aus.
+     * @param figure Referenz auf das weitere Figures.Figure-Objekt.
      */
     public void hinzufuegen(Figure figure) {
         figures.add(figure);

@@ -1,0 +1,3 @@
+Rechteck	12	23	39 23
+Kreis	67 251	23
+Linie	150 140 35 50
